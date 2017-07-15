@@ -54,7 +54,6 @@ article.post:last-of-type {
 
 .site-nav ul:before, .site-nav ul:after {content: ""; display: table;} 
 .site-nav ul:after {clear: both;}
-.site-nav-ul {*zoom:1;}
 
 .site-nav ul li {
 	list-style: none;
@@ -91,3 +90,40 @@ article.post:last-of-type {
 	padding-right: 10px;
 	border-right: 1px dotted #BBB;
 }
+
+/*Page Layout*/
+article.page h2 {
+	font-size: 300%;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+ 
+/*Two Column Title Layout*/
+div.title-column {
+	width: 30%;
+	float: left;
+}
+
+div.text-column {
+	width: 70%;
+	float: right;
+}
+
+/*Info box comments*/
+.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #EEE;
+}
+.info-box h4 {
+	margin-bottom: 6px;
+}
+
+.info-box p {
+	font-size: 85%;
+}
+	}
