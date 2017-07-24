@@ -8,8 +8,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
-<FilesMatch ".(css)$">
-    Header append Cache-Control "no-store, no-cache, must-revalidate"
-</FilesMatch>
 
 # END WordPress
