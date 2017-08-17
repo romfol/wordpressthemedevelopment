@@ -38,7 +38,7 @@ function custom_excerpt_length() {
  add_filter('excerpt_length','custom_excerpt_length');
 
 //Theme setup
-function learningWordPress_setup() {
+function wordpressthemedevelopment_setup() {
 		
 		//Navigation Menus
 		register_nav_menus(array(
@@ -53,4 +53,4 @@ function learningWordPress_setup() {
 
 }
 
-add_action('after_setup_theme', 'learningWordPress_setup');
+add_action('after_setup_theme', 'wordpressthemedevelopment_setup');

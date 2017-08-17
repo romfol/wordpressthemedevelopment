@@ -11,6 +11,11 @@
 		<div class="container">
 			<!-- site-header -->
 			<header class="site-header">
+			
+				<div class="hd-search">
+					<?php get_search_form(); ?>
+				</div>
+
 				<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>	
 				<h3><?php bloginfo('description') ?><?php if (is_page('portfolio')) {?>
 					- I'm doing my best! ;)
